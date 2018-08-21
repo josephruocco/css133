@@ -8,7 +8,15 @@ int main()
     cout << "Enter the number of terms: ";
     cin >> number;
 
-    for (int j = 1; j <= number; ++j)
+    fib(number); 
+        
+    return 0;
+}
+
+
+int fib(int a)
+{
+  for (int j = 1; j <= number; ++j)
     {
          if ( j <= 1 )
             nextTerm = j;
